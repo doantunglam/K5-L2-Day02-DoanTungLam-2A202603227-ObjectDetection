@@ -7,7 +7,7 @@
 - Email: 26ai.lamdt2@vinuni.edu.vn
 - Lớp: 2A-LAB-E402
 - Link repo bài làm: https://github.com/doantunglam/K5-L2-Day02-DoanTungLam-2A202603227-ObjectDetection
-- Link Colab đã chạy (local): [notebooks/runs/detect/Day2-Lab/outputs/yolo26_runs/](../../notebooks/runs/detect/Day2-Lab/outputs/yolo26_runs/).
+- Link Colab đã chạy (local): [notebooks/runs/detect/Day2-Lab/outputs/yolo26_runs/](../../notebooks/day2_annotation_to_yolo.ipynb).
 
 ## 2. Schema và mini guideline
 
