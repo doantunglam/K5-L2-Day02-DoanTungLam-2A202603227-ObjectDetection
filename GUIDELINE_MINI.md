@@ -21,7 +21,7 @@
 ## Ghi lại quyết định cho ít nhất ba ca mơ hồ
 
 | Ảnh | Tình huống | Quyết định cuối | Lý do theo schema |
-| --------------- | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | |
+| --- | --- | --- | --- |
 | `drive_008.jpg` | Xe tải ben màu đỏ chở đống đất/vật liệu cao vồng lên hẳn so với thành thùng xe | Gán nhãn `truck`, vẽ box ôm vừa khít cabin và thùng xe, không bao gồm đống đất vồng lên trên | Đúng định nghĩa lớp `truck` (xe tải chở hàng). Quy tắc chung yêu cầu box bám sát vật thể và loại trừ phần hàng hóa mà xe chở |
 | `drive_037.jpg` | Xe bồn (xe xitec) chuyên dụng màu xanh lam có kích thước vừa, buồng lái và bồn chứa phía sau tách rời nhau | Gán nhãn `truck` | Mặc dù là xe bồn chứa chất lỏng (không phải thùng hàng thông thường), nhưng cấu trúc buồng lái tách biệt hoàn toàn với phần chuyên chở phía sau đáp ứng đúng tiêu chí "xe tải chở hàng, xe đầu kéo" của lớp `truck` |
-| `drive_042.jpg` | Chiếc xe tải hạng nhẹ chở hàng hóa cồng kềnh (các bao tải lớn) chất cao vượt quá đầu xe | Gán nhãn `truck`, vẽ box chỉ lấy phần xe, bỏ qua đống hàng | Schema chỉ định rõ xe tải chở hàng thuộc lớp truck. Quy tắc chung yêu cầu box bám sát vật thể xe và không bao gồm phần hàng hóa chở thêm |
+| `drive_042.jpg` | Chiếc xe tải hạng nhẹ chở hàng hóa cồng kềnh (các bao tải lớn) chất cao vượt quá đầu xe | Gán nhãn `truck`, vẽ box chỉ lấy phần xe, bỏ qua đống hàng | Schema chỉ định rõ xe tải chở hàng thuộc lớp `truck`. Quy tắc chung yêu cầu box bám sát vật thể xe và không bao gồm phần hàng hóa chở thêm |
